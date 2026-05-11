@@ -1,0 +1,1 @@
+Added project screenshots of VPC creation, Subnet creation, Load Balancer, EC2 running, Auto-Scaling Self healing, Recovered EC2 isntance and Disaster Recovery Output.
