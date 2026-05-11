@@ -87,31 +87,38 @@ echo "<h1>Recovered EC2 Instance</h1>" | sudo tee /var/www/html/index.html
 
 ## Screenshots
 
-### VPC Architecture
+### VPC Setup
 ![VPC Setup](screenshots/vpc-setup.png)
 
-### Route Table Configuration
-![Route Table](screenshots/private-route-table.png)
+### Subnet Architecture
+![Subnet Architecture](screenshots/subnet-architecture.png)
 
-### NAT Gateway
-![NAT Gateway](screenshots/nat-gateway.png)
+### Public Route Table with Internet Gateway
+![Public Route Table](screenshots/public-route-table-igw.png)
 
-### Security Group Configuration
-![Security Group](screenshots/alb-security-group.png)
+### Private Route Table with NAT Gateway
+![Private Route Table](screenshots/private-route-table-with-nat.png)
 
-### Load Balancer Traffic Routing
-![ALB Instance 1](screenshots/alb-routing-instance-1.png)
+### Load Balancer Configuration
+![Load Balancer](screenshots/load-balancer.png)
 
-![ALB Instance 2](screenshots/alb-routing-instance-2.png)
+### EC2 Instances Running
+![EC2 Running](screenshots/EC2-running.png)
 
-### Auto Scaling Self-Healing
+### ALB Routing - Instance 1
+![ALB Routing Instance 1](screenshots/alb-routing-instance-1.png)
+
+### ALB Routing - Instance 2
+![ALB Routing Instance 2](screenshots/alb-routing-instance-2.png)
+
+### Auto Scaling Self Healing
 ![Auto Scaling](screenshots/auto-scaling-self-healing.png)
 
-### Disaster Recovery Instance
+### Recovered EC2 Instance
 ![Recovered EC2](screenshots/recovered-ec2-instance.png)
 
 ### Disaster Recovery Output
-![Recovery Output](screenshots/disaster-recovery-output.png)
+![Disaster Recovery](screenshots/disaster-recovery-output.png)
 
 ---
 
